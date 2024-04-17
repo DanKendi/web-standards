@@ -1,0 +1,47 @@
+body{
+    background-color: #5282db;
+}
+
+p{
+    width: 800px;
+    border: 0px solid rgb(33, 114, 161);
+    padding: 30px;
+    margin: 20px;
+}
+
+p.margem{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 150px;
+}
+
+p.porc{
+    font-size: 70%; /*  */
+
+}
+
+p.px{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, monospace;
+    font-weight: 350;
+    font-style: italic;
+    text-decoration: underline;
+    text-indent: 50px;
+    background-color: blueviolet;
+    letter-spacing: 10px;
+}
+
+p.pt{
+    font-size: 10pt;
+}
+
+p.em{
+    font-size: 2em;
+}
+
+h1{
+    text-shadow: 3px 3px 5px red;
+    font-family: comic;
+}
+
