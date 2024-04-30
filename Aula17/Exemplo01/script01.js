@@ -15,7 +15,7 @@ function getRandomColor(){
     var letras = '0123456789ABCDEF'
     var cores = '#';
     for (var i=0; i<6; i++){
-        cores = letras[Math.floor(Math.random()*16)];
+        cores += letras[Math.floor(Math.random()*16)];
 
     }
     return cores;
